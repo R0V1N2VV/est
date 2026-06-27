@@ -1,0 +1,5 @@
+C:/Users/felip/Downloads/ClassCode_Qt_XAMPP_Espanol/build/Desktop_Qt_6_9_3_llvm_mingw_64_bit_Debug/CMakeFiles/ClassCode.dir
+C:/Users/felip/Downloads/ClassCode_Qt_XAMPP_Espanol/build/Desktop_Qt_6_9_3_llvm_mingw_64_bit_Debug/CMakeFiles/edit_cache.dir
+C:/Users/felip/Downloads/ClassCode_Qt_XAMPP_Espanol/build/Desktop_Qt_6_9_3_llvm_mingw_64_bit_Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/felip/Downloads/ClassCode_Qt_XAMPP_Espanol/build/Desktop_Qt_6_9_3_llvm_mingw_64_bit_Debug/CMakeFiles/ClassCode_autogen_timestamp_deps.dir
+C:/Users/felip/Downloads/ClassCode_Qt_XAMPP_Espanol/build/Desktop_Qt_6_9_3_llvm_mingw_64_bit_Debug/CMakeFiles/ClassCode_autogen.dir

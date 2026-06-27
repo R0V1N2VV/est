@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>900</width><height>600</height></rect></property>
+  <property name="windowTitle"><string>ClassCode</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry"><rect><x>0</x><y>0</y><width>900</width><height>600</height></rect></property>
+
+    <widget class="QWidget" name="pageLogin">
+     <widget class="QLabel" name="labelTituloLogin"><property name="geometry"><rect><x>310</x><y>70</y><width>280</width><height>50</height></rect></property><property name="text"><string>ClassCode</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QLabel" name="labelBienvenidaLogin"><property name="geometry"><rect><x>280</x><y>120</y><width>340</width><height>30</height></rect></property><property name="text"><string>Bienvenido a ClassCode</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QLineEdit" name="txtUsuario"><property name="geometry"><rect><x>310</x><y>190</y><width>280</width><height>35</height></rect></property><property name="placeholderText"><string>Usuario</string></property></widget>
+     <widget class="QLineEdit" name="txtContrasena"><property name="geometry"><rect><x>310</x><y>240</y><width>280</width><height>35</height></rect></property><property name="echoMode"><enum>QLineEdit::Password</enum></property><property name="placeholderText"><string>Contrasena</string></property></widget>
+     <widget class="QPushButton" name="btnIngresar"><property name="geometry"><rect><x>310</x><y>300</y><width>280</width><height>38</height></rect></property><property name="text"><string>Ingresar</string></property></widget>
+     <widget class="QPushButton" name="btnIrRegistro"><property name="geometry"><rect><x>310</x><y>350</y><width>280</width><height>38</height></rect></property><property name="text"><string>Registrarse</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageRegistro">
+     <widget class="QLabel" name="labelRegistro"><property name="geometry"><rect><x>310</x><y>60</y><width>280</width><height>45</height></rect></property><property name="text"><string>Registro de usuario</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QLineEdit" name="txtNombreRegistro"><property name="geometry"><rect><x>310</x><y>140</y><width>280</width><height>35</height></rect></property><property name="placeholderText"><string>Nombre</string></property></widget>
+     <widget class="QLineEdit" name="txtUsuarioRegistro"><property name="geometry"><rect><x>310</x><y>190</y><width>280</width><height>35</height></rect></property><property name="placeholderText"><string>Usuario</string></property></widget>
+     <widget class="QLineEdit" name="txtContrasenaRegistro"><property name="geometry"><rect><x>310</x><y>240</y><width>280</width><height>35</height></rect></property><property name="echoMode"><enum>QLineEdit::Password</enum></property><property name="placeholderText"><string>Contrasena</string></property></widget>
+     <widget class="QPushButton" name="btnCrearCuenta"><property name="geometry"><rect><x>310</x><y>305</y><width>280</width><height>38</height></rect></property><property name="text"><string>Crear cuenta</string></property></widget>
+     <widget class="QPushButton" name="btnVolverLoginRegistro"><property name="geometry"><rect><x>310</x><y>355</y><width>280</width><height>38</height></rect></property><property name="text"><string>Volver al login</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageAdmin">
+     <widget class="QLabel" name="labelAdmin"><property name="geometry"><rect><x>300</x><y>55</y><width>300</width><height>45</height></rect></property><property name="text"><string>Panel Administrador</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QPushButton" name="btnGestionarCursos"><property name="geometry"><rect><x>310</x><y>140</y><width>280</width><height>38</height></rect></property><property name="text"><string>Gestionar cursos y módulos</string></property></widget>
+     <widget class="QPushButton" name="btnVerUsuarios"><property name="geometry"><rect><x>310</x><y>190</y><width>280</width><height>38</height></rect></property><property name="text"><string>Ver usuarios</string></property></widget>
+     <widget class="QPushButton" name="btnVerInscripciones"><property name="geometry"><rect><x>310</x><y>240</y><width>280</width><height>38</height></rect></property><property name="text"><string>Ver inscripciones</string></property></widget>
+     <widget class="QPushButton" name="btnCerrarSesion"><property name="geometry"><rect><x>310</x><y>315</y><width>280</width><height>38</height></rect></property><property name="text"><string>Cerrar sesion</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageUsuario">
+     <widget class="QLabel" name="labelUsuario"><property name="geometry"><rect><x>300</x><y>55</y><width>300</width><height>45</height></rect></property><property name="text"><string>Menu Usuario</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QPushButton" name="btnVerCursos"><property name="geometry"><rect><x>310</x><y>140</y><width>280</width><height>38</height></rect></property><property name="text"><string>Ver cursos disponibles</string></property></widget>
+     <widget class="QPushButton" name="btnVerMisCursos"><property name="geometry"><rect><x>310</x><y>190</y><width>280</width><height>38</height></rect></property><property name="text"><string>Ver mis cursos y leer modulos</string></property></widget>
+     <widget class="QPushButton" name="btnVerProgreso"><property name="geometry"><rect><x>310</x><y>240</y><width>280</width><height>38</height></rect></property><property name="text"><string>Ver progreso</string></property></widget>
+     <widget class="QPushButton" name="btnCerrarSesionUsuario"><property name="geometry"><rect><x>310</x><y>315</y><width>280</width><height>38</height></rect></property><property name="text"><string>Cerrar sesion</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageGestionCursos">
+     <widget class="QLabel" name="labelGestionCursos"><property name="geometry"><rect><x>290</x><y>15</y><width>320</width><height>30</height></rect></property><property name="text"><string>Gestionar cursos y módulos</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QLabel" name="labelCrearCurso"><property name="geometry"><rect><x>40</x><y>55</y><width>260</width><height>22</height></rect></property><property name="text"><string>Crear curso</string></property></widget>
+     <widget class="QLineEdit" name="txtNombreCurso"><property name="geometry"><rect><x>40</x><y>80</y><width>260</width><height>30</height></rect></property><property name="placeholderText"><string>Nombre del curso</string></property></widget>
+     <widget class="QLineEdit" name="txtDescripcionCurso"><property name="geometry"><rect><x>40</x><y>118</y><width>260</width><height>30</height></rect></property><property name="placeholderText"><string>Descripcion</string></property></widget>
+     <widget class="QLineEdit" name="txtModulosCurso"><property name="geometry"><rect><x>40</x><y>156</y><width>260</width><height>30</height></rect></property><property name="placeholderText"><string>Cantidad de modulos</string></property></widget>
+     <widget class="QPushButton" name="btnCrearCurso"><property name="geometry"><rect><x>40</x><y>196</y><width>260</width><height>34</height></rect></property><property name="text"><string>Crear curso</string></property></widget>
+     <widget class="QLabel" name="labelModuloInfo"><property name="geometry"><rect><x>40</x><y>255</y><width>260</width><height>22</height></rect></property><property name="text"><string>Cargar información de módulo</string></property></widget>
+     <widget class="QComboBox" name="comboCursoModulo"><property name="geometry"><rect><x>40</x><y>282</y><width>260</width><height>30</height></rect></property></widget>
+     <widget class="QComboBox" name="comboNumeroModulo"><property name="geometry"><rect><x>40</x><y>322</y><width>260</width><height>30</height></rect></property></widget>
+     <widget class="QLineEdit" name="txtTituloModulo"><property name="geometry"><rect><x>40</x><y>362</y><width>260</width><height>30</height></rect></property><property name="placeholderText"><string>Titulo del modulo</string></property></widget>
+     <widget class="QPlainTextEdit" name="txtInfoModulo"><property name="geometry"><rect><x>40</x><y>402</y><width>260</width><height>65</height></rect></property><property name="placeholderText"><string>Informacion que va a leer el alumno</string></property></widget>
+     <widget class="QPushButton" name="btnGuardarModulo"><property name="geometry"><rect><x>40</x><y>480</y><width>260</width><height>34</height></rect></property><property name="text"><string>Guardar información del módulo</string></property></widget>
+     <widget class="QPlainTextEdit" name="txtCursosAdmin"><property name="geometry"><rect><x>340</x><y>55</y><width>520</width><height>390</height></rect></property><property name="readOnly"><bool>true</bool></property><property name="plainText"><string>Cursos y modulos</string></property></widget>
+     <widget class="QLabel" name="labelEliminarCurso"><property name="geometry"><rect><x>340</x><y>443</y><width>250</width><height>20</height></rect></property><property name="text"><string>Seleccionar curso a eliminar</string></property></widget>
+     <widget class="QComboBox" name="comboCursoEliminar"><property name="geometry"><rect><x>340</x><y>465</y><width>250</width><height>32</height></rect></property></widget>
+     <widget class="QPushButton" name="btnEliminarCurso"><property name="geometry"><rect><x>610</x><y>465</y><width>250</width><height>32</height></rect></property><property name="text"><string>Eliminar curso</string></property></widget>
+     <widget class="QPushButton" name="btnVolverAdmin"><property name="geometry"><rect><x>610</x><y>520</y><width>250</width><height>36</height></rect></property><property name="text"><string>Volver</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageCursosDisponibles">
+     <widget class="QLabel" name="labelCursosDisponibles"><property name="geometry"><rect><x>310</x><y>25</y><width>280</width><height>35</height></rect></property><property name="text"><string>Cursos disponibles</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QListWidget" name="listaCursosDisponibles"><property name="geometry"><rect><x>40</x><y>80</y><width>560</width><height>430</height></rect></property></widget>
+     <widget class="QLabel" name="labelSeleccionCurso"><property name="geometry"><rect><x>635</x><y>120</y><width>220</width><height>50</height></rect></property><property name="text"><string>Selecciona un curso de la lista y despues toca Inscribirme.</string></property><property name="wordWrap"><bool>true</bool></property></widget>
+     <widget class="QPushButton" name="btnInscribirmeCurso"><property name="geometry"><rect><x>635</x><y>195</y><width>220</width><height>36</height></rect></property><property name="text"><string>Inscribirme</string></property></widget>
+     <widget class="QPushButton" name="btnVolverUsuarioCursos"><property name="geometry"><rect><x>635</x><y>475</y><width>220</width><height>36</height></rect></property><property name="text"><string>Volver</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageMisCursos">
+     <widget class="QLabel" name="labelMisCursos"><property name="geometry"><rect><x>270</x><y>25</y><width>360</width><height>35</height></rect></property><property name="text"><string>Mis cursos y modulo actual</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QPlainTextEdit" name="txtMisCursos"><property name="geometry"><rect><x>40</x><y>80</y><width>560</width><height>430</height></rect></property><property name="readOnly"><bool>true</bool></property></widget>
+     <widget class="QLabel" name="labelCompletarModulo"><property name="geometry"><rect><x>635</x><y>92</y><width>220</width><height>50</height></rect></property><property name="text"><string>Lee el módulo actual, selecciona el curso y marca completar.</string></property><property name="wordWrap"><bool>true</bool></property></widget>
+     <widget class="QComboBox" name="comboCursoCompletar"><property name="geometry"><rect><x>635</x><y>155</y><width>220</width><height>32</height></rect></property></widget>
+     <widget class="QPushButton" name="btnCompletarModulo"><property name="geometry"><rect><x>635</x><y>205</y><width>220</width><height>36</height></rect></property><property name="text"><string>Completar modulo leido</string></property></widget>
+     <widget class="QPushButton" name="btnVolverUsuarioMisCursos"><property name="geometry"><rect><x>635</x><y>475</y><width>220</width><height>36</height></rect></property><property name="text"><string>Volver</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageProgreso">
+     <widget class="QLabel" name="labelProgreso"><property name="geometry"><rect><x>310</x><y>25</y><width>280</width><height>35</height></rect></property><property name="text"><string>Progreso</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QPlainTextEdit" name="txtProgreso"><property name="geometry"><rect><x>90</x><y>80</y><width>720</width><height>410</height></rect></property><property name="readOnly"><bool>true</bool></property></widget>
+     <widget class="QPushButton" name="btnVolverUsuarioProgreso"><property name="geometry"><rect><x>310</x><y>515</y><width>280</width><height>36</height></rect></property><property name="text"><string>Volver</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageVerUsuariosAdmin">
+     <widget class="QLabel" name="labelUsuariosAdmin"><property name="geometry"><rect><x>310</x><y>25</y><width>280</width><height>35</height></rect></property><property name="text"><string>Usuarios</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QPlainTextEdit" name="txtUsuariosAdmin"><property name="geometry"><rect><x>40</x><y>80</y><width>560</width><height>430</height></rect></property><property name="readOnly"><bool>true</bool></property></widget>
+     <widget class="QLineEdit" name="txtIdUsuarioEliminar"><property name="geometry"><rect><x>635</x><y>130</y><width>220</width><height>32</height></rect></property><property name="placeholderText"><string>ID del usuario</string></property></widget>
+     <widget class="QPushButton" name="btnEliminarUsuario"><property name="geometry"><rect><x>635</x><y>180</y><width>220</width><height>36</height></rect></property><property name="text"><string>Eliminar usuario</string></property></widget>
+     <widget class="QPushButton" name="btnVolverAdminUsuarios"><property name="geometry"><rect><x>635</x><y>475</y><width>220</width><height>36</height></rect></property><property name="text"><string>Volver</string></property></widget>
+    </widget>
+
+    <widget class="QWidget" name="pageInscripciones">
+     <widget class="QLabel" name="labelInscripciones"><property name="geometry"><rect><x>310</x><y>25</y><width>280</width><height>35</height></rect></property><property name="text"><string>Inscripciones</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget>
+     <widget class="QPlainTextEdit" name="txtInscripcionesAdmin"><property name="geometry"><rect><x>90</x><y>80</y><width>720</width><height>410</height></rect></property><property name="readOnly"><bool>true</bool></property></widget>
+     <widget class="QPushButton" name="btnVolverAdminInscripciones"><property name="geometry"><rect><x>310</x><y>515</y><width>280</width><height>36</height></rect></property><property name="text"><string>Volver</string></property></widget>
+    </widget>
+
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
